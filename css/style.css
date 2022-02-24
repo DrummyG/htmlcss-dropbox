@@ -334,3 +334,81 @@ ul li i{
 }
 
 /* lavoro section 4 */
+
+.acc{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.container p a{
+    padding-bottom: 40px;
+}
+
+.adjust{
+    width: 30vw;
+    height: 30vw;
+}
+
+.square{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+}
+
+.bigsquare{
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: #c3c3c3;
+    padding: 30px;
+}
+
+.bigsquare img{
+    width: 30%;
+}
+
+.green{
+    background-color: #A2D39B;
+}
+
+.pinky{
+    background-color: #61082b;
+}
+
+.red{
+    background-color: #d5001f;
+}
+
+.light{
+    background-color: hsl(207deg 52% 81%);
+}
+
+.blue{
+    background-color: hsl(197deg 100% 40%);
+}
+
+.bright{
+    background-color: hsl(0deg 100% 55%);
+}
+
+.dark{
+    background-color: hsl(228deg 82% 28%);
+}
+
+.yellow{
+    background-color: hsl(49deg 100% 59%);
+}
+
+.square img{
+    -webkit-filter: invert(1);
+   filter: invert(1);
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
