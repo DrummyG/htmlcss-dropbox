@@ -36,6 +36,14 @@ ul li{
     color: white;
 }
 
+.white a{
+    background-color: white;
+}
+
+.border a{
+    border: 2px solid black;
+}
+
 a{
     display: inline-block;
     text-decoration: none;
@@ -260,13 +268,13 @@ ul li i{
     max-width: 50%;
 }
 
-.bottom .big{
+.big{
     font-size: x-large;
     font-weight: bolder;
     padding-bottom: 20px;
 }
 
-.bottom .sub{
+.sub{
     font-size: large;
     font-weight: bolder;
     padding-top: 30px;
@@ -282,3 +290,25 @@ ul li i{
 }
 
 /* lavoro section 2 */
+
+.partner{
+    max-width: 50%;
+    margin-top: 100px;
+}
+
+.partner img{
+    width: 100%;
+}
+
+.desc{
+    max-width: 50%;
+    margin-top: 130px;
+    padding: 50px;
+}
+
+.desc .button{
+    margin-top: 30px;
+}
+
+/* lavoro section 3 */
+
