@@ -9,6 +9,10 @@ body{
     min-width: 1200px;
 }
 
+body{
+    overflow-x: hidden;
+    }
+
 .left{
     float:left;
 }
@@ -312,3 +316,21 @@ ul li i{
 
 /* lavoro section 3 */
 
+.container section .accuracy{
+    padding-top: 40px;
+}
+
+.segment{
+    width: 33%;
+    padding: 20px;
+}
+
+.segment .imgbox img{
+    width: 100%;
+}
+
+.small{
+    font-size: small;
+}
+
+/* lavoro section 4 */
