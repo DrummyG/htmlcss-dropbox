@@ -358,7 +358,7 @@ ul li i{
 .bigsquare{
     width: calc(100% - 60vw);
     height: 30vw;
-    background-color: #c3c3c3;
+    background-color: hsl(0deg 0% 96%);
     padding: 30px;
 }
 
@@ -411,4 +411,25 @@ ul li i{
 .center{
     padding-top: 40px;
     padding-bottom: 30px;
+}
+
+/* section 5 */
+
+.back{
+    padding-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-color: hsl(207deg 52% 81%);
+}
+
+.giga{
+    position: relative;
+    left: 15%;
+    font-size: 7vh;
+}
+
+.back .button{
+    position: relative;
+    left: 65%;
+    bottom: 45%;
 }
