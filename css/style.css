@@ -5,8 +5,121 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    min-width: 1200px;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float: right;
+}
+
 .clearfix::after{
 	content: “”;
 	display: table;
 	clear: both;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.button a{
+    padding: 5px 10px;
+}
+
+.blu a{
+    background-color: blue;
+    color: white;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* lavoro nav */
+
+nav{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+nav .logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav .button{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+/* lavoro jumbo */
+
+#jumbo{
+    width: 100%;
+    padding-top: 80px;
+    background-color: #B4D0E7;
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 8vh;
+    font-weight: bolder;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.box p{
+    max-width: 30%;
+    font-size: small;
+}
+
+.first{
+    padding-top: 50px;
+}
+
+.box p span i{
+    font-size: larger;
+}
+
+.box .button{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.second{
+    padding-bottom: 50px;
+}
+
+.arrow{
+    padding-bottom: 100px;
+}
+
+
+
+ header #jumbo figure img{
+    height: 50%;
+    width: 50%;
+    float: right;
 }
