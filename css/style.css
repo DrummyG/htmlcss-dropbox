@@ -146,6 +146,7 @@ h1{
 .circlebutt{
     display: inline-block;
     margin-right: 20px;
+    padding-bottom: 30px;
 }
 
 .signed{
@@ -158,5 +159,71 @@ h1{
 }
 
 .un{
-    border: 2px solid grey;
+    border: 2px solid lightgrey;
+}
+
+.offerta{
+    border: 1px solid lightgray;
+}
+
+.top{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.offerta{
+    width: 30%;
+}
+
+.centrer .big{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.centrer .strong{
+    font-size: small;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.grey{
+    font-size: smaller;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.centrer p{
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.centrer button a{
+    margin-top: 40px;
+}
+
+.centrer .underlined{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.centrer p span{
+    color: blue;
+    text-decoration: underline;
+}
+
+.centrer .sub{
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.centrer ul li{
+    padding-bottom: 20px;
+}
+
+ul li i{
+    color: blue;
 }
