@@ -484,12 +484,14 @@ ul li i{
 
 .repeat .grey{
     display: none;
+    clear: both;
 }
 
-.repeat .clearfix i:hover + .repeat .grey{
+i:hover + .grey{
     display: block;
 }
 
+/* /fine sezione main */
 /* footer */
 
 footer{
