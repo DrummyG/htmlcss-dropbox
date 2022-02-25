@@ -83,6 +83,10 @@ nav .button{
     margin-right: 20px;
 }
 
+nav ul li a:hover{
+border-bottom: 3px solid black;
+}
+
 /* lavoro jumbo */
 
 #jumbo{
@@ -134,6 +138,10 @@ h1{
     padding-bottom: 80px;
 }
 
+.arrow a i{
+    font-size: xx-large;
+}
+
  header #jumbo .box img{
     width: 100%;
     position: relative;
@@ -178,6 +186,7 @@ h1{
 .offerta{
     border: 1px solid lightgray;
     width: 30%;
+    height: 1000px;
 }
 
 .top{
@@ -445,6 +454,10 @@ ul li i{
     margin-bottom: 40px;
 }
 
+.repeat :last-child{
+    margin-bottom: 60px;
+}
+
 /* footer */
 
 footer{
@@ -476,5 +489,13 @@ li.last-title{
 footer hr{
     width: 20%;
     color: white;
-    background-color: white;
+    margin-bottom: 30px;
+}
+
+.final-container p{
+    color: white;
+}
+
+.final-container p i{
+    color: white;
 }
