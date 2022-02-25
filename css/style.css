@@ -36,7 +36,7 @@ ul li{
 }
 
 .blu a{
-    background-color: blue;
+    background-color: hsl(217deg 100% 50%);
     color: white;
 }
 
@@ -86,6 +86,25 @@ nav .button{
 nav ul li a:hover{
 border-bottom: 3px solid black;
 }
+
+ ul .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  ul .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 /* lavoro jumbo */
 
@@ -138,6 +157,10 @@ h1{
     padding-bottom: 80px;
 }
 
+.arrow a{
+    color: black;
+}
+
 .arrow a i{
     font-size: xx-large;
 }
@@ -186,7 +209,7 @@ h1{
 .offerta{
     border: 1px solid lightgray;
     width: 30%;
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .top{
@@ -456,6 +479,14 @@ ul li i{
 
 .repeat :last-child{
     margin-bottom: 60px;
+}
+
+.repeat .grey{
+    display: none;
+}
+
+.repeat .clearfix i:hover + .repeat .grey{
+    display: block;
 }
 
 /* footer */
