@@ -392,6 +392,7 @@ ul li i{
     height: 30vw;
     background-color: hsl(0deg 0% 96%);
     padding: 30px;
+    overflow-y: auto;
 }
 
 .bigsquare img{
